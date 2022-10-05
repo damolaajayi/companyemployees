@@ -1,0 +1,14 @@
+C:\Users\Hp840g5\source\repos\Employees\Employees.Entities\bin\Debug\net6.0\Employees.Entities.deps.json
+C:\Users\Hp840g5\source\repos\Employees\Employees.Entities\bin\Debug\net6.0\Employees.Entities.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.Entities\bin\Debug\net6.0\Employees.Entities.pdb
+C:\Users\Hp840g5\source\repos\Employees\Employees.Entities\obj\Debug\net6.0\Employees.Entities.csproj.AssemblyReference.cache
+C:\Users\Hp840g5\source\repos\Employees\Employees.Entities\obj\Debug\net6.0\Employees.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp840g5\source\repos\Employees\Employees.Entities\obj\Debug\net6.0\Employees.Entities.AssemblyInfoInputs.cache
+C:\Users\Hp840g5\source\repos\Employees\Employees.Entities\obj\Debug\net6.0\Employees.Entities.AssemblyInfo.cs
+C:\Users\Hp840g5\source\repos\Employees\Employees.Entities\obj\Debug\net6.0\Employees.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Hp840g5\source\repos\Employees\Employees.Entities\obj\Debug\net6.0\Employees.Entities.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.Entities\obj\Debug\net6.0\refint\Employees.Entities.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.Entities\obj\Debug\net6.0\Employees.Entities.pdb
+C:\Users\Hp840g5\source\repos\Employees\Employees.Entities\obj\Debug\net6.0\ref\Employees.Entities.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.Entities\bin\Debug\net6.0\Employees.Entities.runtimeconfig.json
+C:\Users\Hp840g5\source\repos\Employees\Employees.Entities\obj\Debug\net6.0\Employees.Entities.genruntimeconfig.cache

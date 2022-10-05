@@ -1,0 +1,17 @@
+C:\Users\Hp840g5\source\repos\Employees\Employees.LoggerService\bin\Debug\net6.0\Employees.LoggerService.deps.json
+C:\Users\Hp840g5\source\repos\Employees\Employees.LoggerService\bin\Debug\net6.0\Employees.LoggerService.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.LoggerService\bin\Debug\net6.0\Employees.LoggerService.pdb
+C:\Users\Hp840g5\source\repos\Employees\Employees.LoggerService\bin\Debug\net6.0\Employees.Contracts.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.LoggerService\bin\Debug\net6.0\Employees.Contracts.pdb
+C:\Users\Hp840g5\source\repos\Employees\Employees.LoggerService\obj\Debug\net6.0\Employees.LoggerService.csproj.AssemblyReference.cache
+C:\Users\Hp840g5\source\repos\Employees\Employees.LoggerService\obj\Debug\net6.0\Employees.LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp840g5\source\repos\Employees\Employees.LoggerService\obj\Debug\net6.0\Employees.LoggerService.AssemblyInfoInputs.cache
+C:\Users\Hp840g5\source\repos\Employees\Employees.LoggerService\obj\Debug\net6.0\Employees.LoggerService.AssemblyInfo.cs
+C:\Users\Hp840g5\source\repos\Employees\Employees.LoggerService\obj\Debug\net6.0\Employees.LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\Hp840g5\source\repos\Employees\Employees.LoggerService\obj\Debug\net6.0\Employees.LoggerService.csproj.CopyComplete
+C:\Users\Hp840g5\source\repos\Employees\Employees.LoggerService\obj\Debug\net6.0\Employees.LoggerService.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.LoggerService\obj\Debug\net6.0\refint\Employees.LoggerService.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.LoggerService\obj\Debug\net6.0\Employees.LoggerService.pdb
+C:\Users\Hp840g5\source\repos\Employees\Employees.LoggerService\obj\Debug\net6.0\ref\Employees.LoggerService.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.LoggerService\bin\Debug\net6.0\Employees.Entities.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.LoggerService\bin\Debug\net6.0\Employees.Entities.pdb

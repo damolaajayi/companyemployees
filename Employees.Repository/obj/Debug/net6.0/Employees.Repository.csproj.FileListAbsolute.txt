@@ -1,0 +1,17 @@
+C:\Users\Hp840g5\source\repos\Employees\Employees.Repository\bin\Debug\net6.0\Employees.Repository.deps.json
+C:\Users\Hp840g5\source\repos\Employees\Employees.Repository\bin\Debug\net6.0\Employees.Repository.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.Repository\bin\Debug\net6.0\Employees.Repository.pdb
+C:\Users\Hp840g5\source\repos\Employees\Employees.Repository\bin\Debug\net6.0\Employees.Contracts.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.Repository\bin\Debug\net6.0\Employees.Entities.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.Repository\bin\Debug\net6.0\Employees.Contracts.pdb
+C:\Users\Hp840g5\source\repos\Employees\Employees.Repository\bin\Debug\net6.0\Employees.Entities.pdb
+C:\Users\Hp840g5\source\repos\Employees\Employees.Repository\obj\Debug\net6.0\Employees.Repository.csproj.AssemblyReference.cache
+C:\Users\Hp840g5\source\repos\Employees\Employees.Repository\obj\Debug\net6.0\Employees.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp840g5\source\repos\Employees\Employees.Repository\obj\Debug\net6.0\Employees.Repository.AssemblyInfoInputs.cache
+C:\Users\Hp840g5\source\repos\Employees\Employees.Repository\obj\Debug\net6.0\Employees.Repository.AssemblyInfo.cs
+C:\Users\Hp840g5\source\repos\Employees\Employees.Repository\obj\Debug\net6.0\Employees.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Hp840g5\source\repos\Employees\Employees.Repository\obj\Debug\net6.0\Employees.Repository.csproj.CopyComplete
+C:\Users\Hp840g5\source\repos\Employees\Employees.Repository\obj\Debug\net6.0\Employees.Repository.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.Repository\obj\Debug\net6.0\refint\Employees.Repository.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.Repository\obj\Debug\net6.0\Employees.Repository.pdb
+C:\Users\Hp840g5\source\repos\Employees\Employees.Repository\obj\Debug\net6.0\ref\Employees.Repository.dll

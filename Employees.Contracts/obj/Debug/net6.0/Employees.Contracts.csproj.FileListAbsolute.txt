@@ -1,0 +1,15 @@
+C:\Users\Hp840g5\source\repos\Employees\Employees.Contracts\bin\Debug\net6.0\Employees.Contracts.deps.json
+C:\Users\Hp840g5\source\repos\Employees\Employees.Contracts\bin\Debug\net6.0\Employees.Contracts.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.Contracts\bin\Debug\net6.0\Employees.Contracts.pdb
+C:\Users\Hp840g5\source\repos\Employees\Employees.Contracts\obj\Debug\net6.0\Employees.Contracts.csproj.AssemblyReference.cache
+C:\Users\Hp840g5\source\repos\Employees\Employees.Contracts\obj\Debug\net6.0\Employees.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp840g5\source\repos\Employees\Employees.Contracts\obj\Debug\net6.0\Employees.Contracts.AssemblyInfoInputs.cache
+C:\Users\Hp840g5\source\repos\Employees\Employees.Contracts\obj\Debug\net6.0\Employees.Contracts.AssemblyInfo.cs
+C:\Users\Hp840g5\source\repos\Employees\Employees.Contracts\obj\Debug\net6.0\Employees.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Hp840g5\source\repos\Employees\Employees.Contracts\obj\Debug\net6.0\Employees.Contracts.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.Contracts\obj\Debug\net6.0\refint\Employees.Contracts.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.Contracts\obj\Debug\net6.0\Employees.Contracts.pdb
+C:\Users\Hp840g5\source\repos\Employees\Employees.Contracts\obj\Debug\net6.0\ref\Employees.Contracts.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.Contracts\bin\Debug\net6.0\Employees.Entities.dll
+C:\Users\Hp840g5\source\repos\Employees\Employees.Contracts\bin\Debug\net6.0\Employees.Entities.pdb
+C:\Users\Hp840g5\source\repos\Employees\Employees.Contracts\obj\Debug\net6.0\Employees.Contracts.csproj.CopyComplete
