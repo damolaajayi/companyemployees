@@ -1,4 +1,5 @@
-﻿using Employees.Contracts;
+﻿using Employees.API.RequestFeatures;
+using Employees.Contracts;
 using Employees.Entities;
 using Employees.Entities.Models;
 using System;
@@ -30,7 +31,7 @@ namespace Employees.Repository
         public Employee GetEmployee(Guid companyId, Guid id, bool trackChanges) =>
             FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id.Equals(id), trackChanges).SingleOrDefault();
 
-        public IEnumerable<Employee> GetEmployees(Guid companyId, bool trackChanges) =>
+        public async Task<IEnumerable<Employee>> GetEmployeesAsync(Guid companyId, EmployeeParameters employeeParameters, bool trackChanges) =>
             FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
             .OrderBy(e => e.Name);
     }

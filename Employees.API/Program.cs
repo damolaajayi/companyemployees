@@ -1,6 +1,7 @@
 using Employees.API.Extensions;
 using Employees.Contracts;
 using Microsoft.AspNetCore.HttpOverrides;
+using Microsoft.AspNetCore.Mvc;
 using NLog;
 
 LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(),
@@ -14,12 +15,18 @@ builder.Services.ConfigureIISIntegration();
 builder.Services.ConfigureLoggerService();
 builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.ConfigureRepositoryManager();
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.SuppressModelStateInvalidFilter = true;
+});
 builder.Services.AddControllers(config =>
 {
     config.RespectBrowserAcceptHeader = true;
     config.ReturnHttpNotAcceptable = true;
-}).AddXmlDataContractSerializerFormatters()
-.AddCustomCSVFormatter();
+    //config.Filters.Add(new GlobalFilterExample());
+}).AddNewtonsoftJson()
+  .AddXmlDataContractSerializerFormatters()
+  .AddCustomCSVFormatter();
 
 builder.Services.AddAutoMapper(typeof(Program));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

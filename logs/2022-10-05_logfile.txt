@@ -1,1 +1,6 @@
 2022-10-05 07:33:39.6647 INFO Employee with id: 3d490a70-94ce-4d15-9494-5248280c2ce3 doesn't exist in the database
+2022-10-05 08:32:33.9299 INFO Company with id: d08eb65e-50d9-4cd6-674f-08daa6238cdd doesn't exist in the database
+2022-10-05 15:45:28.6577 INFO Company wuth id: 00000000-0000-0000-0000-000000000000 doesn't exist in the database.
+2022-10-05 15:46:07.3250 INFO Company wuth id: 00000000-0000-0000-0000-000000000000 doesn't exist in the database.
+2022-10-05 15:46:17.6698 INFO Company wuth id: 00000000-0000-0000-0000-000000000000 doesn't exist in the database.
+2022-10-05 15:46:18.5030 INFO Company wuth id: 00000000-0000-0000-0000-000000000000 doesn't exist in the database.
