@@ -4,6 +4,7 @@ using Employees.Contracts;
 using Employees.Entities.DataTransferObjects;
 using Employees.Entities.Models;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 
 namespace Employees.API.Controllers
@@ -26,13 +27,15 @@ namespace Employees.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetEmployeesForCompany(Guid companyId, [FromQuery]EmployeeParameters employeeParameters)
         {
-            var company = _repository.Company.GetCompany(companyId, trackChanges: false);
+            var company = await _repository.Company.GetCompany(companyId, trackChanges: false);
             if (company == null)
             {
                 _logger.LogInfo($"Company with id: {companyId} doesn't exist in the database");
                 return NotFound();
             }
             var employesFromDb = await _repository.Employee.GetEmployeesAsync(companyId, employeeParameters, trackChanges: false);
+
+            Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(employesFromDb.MetaData));
 
             var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employesFromDb);
             return Ok(employeesDto);

@@ -2,6 +2,8 @@
 using Employees.Contracts;
 using Employees.Entities;
 using Employees.Entities.Models;
+using Employees.Entities.RequestFeatures;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,8 +33,18 @@ namespace Employees.Repository
         public Employee GetEmployee(Guid companyId, Guid id, bool trackChanges) =>
             FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id.Equals(id), trackChanges).SingleOrDefault();
 
-        public async Task<IEnumerable<Employee>> GetEmployeesAsync(Guid companyId, EmployeeParameters employeeParameters, bool trackChanges) =>
-            FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
-            .OrderBy(e => e.Name);
+        public async Task<PagedList<Employee>> GetEmployeesAsync(Guid companyId, EmployeeParameters employeeParameters, bool trackChanges)
+        {
+            var employees = await FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
+                            .OrderBy(e => e.Name)
+                            .ToArrayAsync();
+            return PagedList<Employee>
+                .ToPagedList(employees, employeeParameters.PageNumber, employeeParameters.PageSize);
+        }
+        //await FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
+        //.OrderBy(e => e.Name)
+        //.Skip((employeeParameters.PageNumber - 1 ) * employeeParameters.PageSize)
+        //.Take(employeeParameters.PageSize)
+        //.ToListAsync();
     }
 }
